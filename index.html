@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mis Postulaciones - Luis Raga</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Mis Postulaciones 💼</h1>
+    <p>Tracker simple hecho por Muse para Luis Raga</p>
+  </header>
+
+  <main>
+    <form id="form">
+      <input id="empresa" placeholder="Empresa" required>
+      <input id="puesto" placeholder="Puesto" required>
+      <select id="estado">
+        <option>Enviada</option>
+        <option>En proceso</option>
+        <option>Entrevista</option>
+        <option>Rechazada</option>
+        <option>Contratado 🎉</option>
+      </select>
+      <button type="submit">Agregar</button>
+    </form>
+
+    <ul id="lista"></ul>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
